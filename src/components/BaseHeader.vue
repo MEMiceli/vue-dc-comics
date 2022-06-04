@@ -37,7 +37,9 @@ export default {
         justify-content: space-around;
         margin: 1.25rem 0;
         text-align: center;
-        
+        // display: flex;
+        // align-items: center; soluzione corretta per allinamento testo
+        // justify-content: center;
         
 
     };
@@ -48,6 +50,7 @@ export default {
         text-transform: uppercase;
         list-style: none;
         column-gap: 2rem;
+        // line-height: è sbagliato;
         line-height: 130px;
         .active {
             border-bottom: .2rem solid var(--primary-color);
